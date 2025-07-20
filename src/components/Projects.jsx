@@ -1,10 +1,6 @@
 import React from 'react';
 import Project_card from './Project_card';
 import { motion } from 'framer-motion';
-import dataStructureImg from '/public/data_structure.png';
-import medicareImg from '/public/medicare.png';
-import expense_tracker_img from '/public/expense_tracker.png';
-
 const Projects = () => {
   return (
     <>
