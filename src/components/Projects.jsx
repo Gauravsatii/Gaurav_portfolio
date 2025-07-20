@@ -29,7 +29,7 @@ const Projects = () => {
         {[
           { name: "Expense Tracker", description: "A full stack Expense Tracker that allows users to track expenses", date: "2025-01-10 - 2025-03-01", image: "/expense_tracker.png"},
           { name: "Matra-Shishu app", description: "A medicare platform for rural-pregnant women", date: "2025-03-05 - 08-03-2025", image: "/medicare.png" },
-          { name: "Master-Slave Data Structure", description: "Hybrid Master Slave data structure", date: "2020-07-15-ongoing", image: "/dataStructure.png" },
+          { name: "Master-Slave Data Structure", description: "Hybrid Master Slave data structure", date: "2020-07-15-ongoing", image: "/data_Structure.png" },
         ].map((project, index) => (
           <motion.div
             key={index}
