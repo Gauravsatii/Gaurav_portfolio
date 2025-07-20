@@ -1,6 +1,8 @@
 import React from 'react';
 import Project_card from './Project_card';
 import { motion } from 'framer-motion';
+
+
 const Projects = () => {
   return (
     <>
