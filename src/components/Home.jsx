@@ -3,7 +3,7 @@ import profile from '../assets/profile.jpg';
 import Download_button from './Download_button'
 import Profile_navigator from './Profile_navigator';
 import { motion } from 'framer-motion';
-
+import { FaAnglesDown } from "react-icons/fa6";
 const Home = () => {
   return (
     <motion.div 
@@ -56,7 +56,26 @@ const Home = () => {
       >
         <Profile_navigator />
       </motion.div>
+      <motion.h2
+  animate={{
+    y: [0,-10, 0, 10, 0],  // Up -> Center -> Down -> Center
+  }}
+  transition={{
+    duration: 2,
+    delay: 1,
+    repeat: Infinity,
+    repeatType: "loop",
+    ease: "easeInOut",
+  }}
+  className='flex items-center justify-center mt-20 gap-2 text-[#00000066]'
+  style={{ fontFamily: 'poppins' }}
+>
+  Scroll <FaAnglesDown className='text-[#00000066]' />
+</motion.h2>
+
     </motion.div>
+
+
   )
 }
 
